@@ -1,4 +1,6 @@
-
+.idea/
+out/
 *.exe
 codeforces/.idea/
 codeforces/out/
+out/production/cp/Problem66B.class

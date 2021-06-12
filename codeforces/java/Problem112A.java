@@ -23,6 +23,6 @@ public class Problem112A {
         assert solve("abX", "AbZ").equals("-1");
     }
     public static void main(String[] args){
-        in();
+        test();
     }
 }
