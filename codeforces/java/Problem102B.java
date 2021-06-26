@@ -29,9 +29,11 @@ public class Problem102B {
     assert solve(BigInteger.valueOf(0)) == 0;
     assert solve(BigInteger.valueOf(10)) == 1;
     assert solve(BigInteger.valueOf(991)) == 3;
+    assert solve(BigInteger.valueOf(987654321)) == 1;
+    assert solve(BigInteger.valueOf(123456789)) == 1;
   }
 
   public static void main(final String[] args) {
-    readAndSolve();
+    test();
   }
 }
